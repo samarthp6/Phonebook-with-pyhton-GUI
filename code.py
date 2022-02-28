@@ -58,7 +58,7 @@ class MyButtons:
     file = askopenfile(mode ='r', filetypes =[('notepad Files','*.txt')])
     if file is not None:
        content = file.read()
-      print(content)
+       print(content)
                 
   # creating a function on command for DELETE button, so it deletes the text entered into the text box.
   def delete(self):
